@@ -938,7 +938,7 @@ int main(int argc, gchar *argv[])
 
   g_object_set(server, "service", PORT, NULL);
 
-  for (int i = 1; i <= 7; i++)
+  for (int i = 1; i <= 60; i++)
   {
     endpt = g_strdup_printf("/stream%d", i);
     location = g_strdup_printf("./%d.mp4", i);

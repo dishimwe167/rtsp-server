@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  rtsp-server:
+    build: .
+    container_name: rtsp-server
+    restart: always
+    ports:
+      - "8554:8554"
